@@ -1,0 +1,90 @@
+*{
+    margin: 0;
+    padding: 0;
+    box-sizing: border-box;
+    outline: 0;
+    font-family: "IBM Plex Sans", sans-serif;
+}
+body{
+     max-width: 1440px;
+     margin: auto;
+     background-color: #f0f4f5;
+     overflow: hidden;
+}
+nav{
+    height: 15vh;
+    display: flex;
+    align-items: center;
+    justify-content: space-between;
+    margin: 0 5%;
+}
+ul{
+    display: flex;
+    align-items: center;
+    justify-content:space-between;
+    gap: 20px;
+}
+li{
+    list-style: none;
+    margin-right: 50px;
+    font-weight: 600;
+}
+
+
+a{
+    text-decoration: none;
+    color: black;
+}
+main{
+    height: 85vh;
+    display: flex;
+    align-items: center;
+    justify-content: center;
+}
+div{
+
+    display: flex;
+    flex-direction: column;
+    align-items: center;
+    justify-content:center;
+    border-radius: 10px;
+}
+form{
+    width: 350px;
+    box-shadow: 0 0 10px black;
+    border-radius: 10px;
+    padding: 20px;
+    display: flex;
+    flex-direction: column;
+    gap: 15px;
+}
+form h1{
+    text-align: center;
+  }
+input{
+    border-radius: 10px;
+    border: transparent;
+    padding: 5px 10px;
+}
+label{
+    font-size: 18px;
+    font-weight: 500;
+    margin-bottom: 5px;
+}
+textarea{
+    border: transparent;
+    height: 100px;
+    resize: none;
+    border-radius: 10px;
+    padding: 5px 10px;
+}
+form button{
+    border: transparent;
+    border-radius: 10px;
+    background: #20BC7E;
+    color: white;
+    font-size: 18px;
+    font-weight: bold;
+    padding: 10px;
+    cursor: pointer;
+  }
